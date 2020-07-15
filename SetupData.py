@@ -23,7 +23,6 @@ def load_stock_data(stock_path = STOCK_PATH):
     df.sort_values(by='timestamp', ascending=True)
     return df
 
-
 stockData = load_stock_data()
 stockData.head()
 
